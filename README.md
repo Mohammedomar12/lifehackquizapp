@@ -89,4 +89,5 @@ This project was created as an assignment for Introduction to Mobile Application
 - Material Design Guidelines
 
 ## YouTube Video :
-soon
+
+https://youtu.be/zrQpMEPKFj8
