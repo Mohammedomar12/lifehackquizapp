@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:padding="24dp"
+    tools:context=".ScoreActivity">
+
+    <TextView
+        android:id="@+id/tvCongrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Complete!"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tvFinalScore"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvFinalScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Score: 0/10"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.35"/>
+
+    <TextView
+        android:id="@+id/tvFeedbackMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Great job!"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/tvFinalScore"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnReview"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:text="Review Answers"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/btnRestart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/purple_700"/>
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:text="Play Again"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/purple_700"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
