@@ -75,9 +75,6 @@ git clone https://github.com/Mohammedomar12/lifehackquizapp.git
 
 ## Author
 
-## YouTube Video :
-soon
-
 [Mohammed]
 - GitHub: [@Mohammedomar12](https://github.com/Mohammedomar12)
 
@@ -90,3 +87,6 @@ This project was created as an assignment for Introduction to Mobile Application
 - The Independent Institute of Education
 - Android Developers Documentation
 - Material Design Guidelines
+
+## YouTube Video :
+soon
